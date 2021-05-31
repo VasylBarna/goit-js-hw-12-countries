@@ -1,0 +1,30 @@
+{
+  "name": "goit-js-hw-12-countries",
+  "version": "1.0.0",
+  "description": "homework-12 Поиск стран",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /parcel-project-template/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VasylBarna/goit-js-hw-12-countries.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VasylBarna/goit-js-hw-12-countries/issues"
+  },
+  "homepage": "https://github.com/VasylBarna/goit-js-hw-12-countries#readme",
+  "devDependencies": {
+    "lodash.debounce": "^4.0.8",
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "pnotify": "^5.2.0",
+    "posthtml-include": "^1.6.2",
+    "sass": "^1.32.8"
+  }
+}
